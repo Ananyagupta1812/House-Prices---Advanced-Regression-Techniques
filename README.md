@@ -2,13 +2,6 @@
 
 This repository contains a complete solution for the Kaggle competition [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques), which challenges participants to predict the final price of homes in Ames, Iowa based on various features.
 
-## 📌 Problem Statement
-
-Accurately predict housing prices using advanced regression models. The dataset includes 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
-
-## 📂 Project Structure
-<pre> \`\`\`text 📁 House-Prices-Prediction ├── model.ipynb # Full EDA, preprocessing, feature engineering, model building ├── submission.csv # Final CSV with 1459 predictions ├── train.csv # Training dataset ├── test.csv # Test dataset └── README.md # Project documentation \`\`\` </pre>
-
 ## 🧪 Approach
 
 ### 1. Data Preprocessing
@@ -27,7 +20,7 @@ Accurately predict housing prices using advanced regression models. The dataset 
 - **Gradient Boosting Regressor**
 - **XGBoost**
 - **LightGBM**
-- **Stacked Regressor** (ensemble of the best models)
+- **Stacked Regressor** 
 
 ### 4. Evaluation
 - Used cross-validation (K-Fold) with RMSE as the evaluation metric
