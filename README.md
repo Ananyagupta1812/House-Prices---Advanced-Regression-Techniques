@@ -45,23 +45,23 @@ Accurately predict housing prices using advanced regression models. The dataset 
 - Final file meets Kaggle’s submission requirements (1459 rows, header)
 - Achieved competitive performance on the leaderboard
 
-## 💻 Dependencies
 
-Install the required packages using:
+## ♎ Main Libraries
 
-```bash
-pip install -r requirements.txt
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `xgboost`
+- `lightgbm`
+- `seaborn`
+- `matplotlib`
 
-## ♎ Main Libraries:
-- numpy
-- pandas
-- scikit-learn
-- xgboost
-- lightgbm
-- seaborn
-- matplotlib
+## 💻 Dependencies & Clone the Repository
 
-## ©️ Clone the repository:
+First, clone the repository and navigate into the project folder:
 
 ```bash
 git clone https://github.com/ananyagupta1812/house-prices-prediction.git
+cd house-prices-prediction
+
+pip install -r requirements.txt
