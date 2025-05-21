@@ -7,12 +7,7 @@ This repository contains a complete solution for the Kaggle competition [House P
 Accurately predict housing prices using advanced regression models. The dataset includes 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 ## 📂 Project Structure
-📁 House-Prices-Prediction
-├── model.ipynb # Full EDA, preprocessing, feature engineering, model building
-├── submission.csv # Final CSV with 1459 predictions
-├── train.csv # Training dataset
-├── test.csv # Test dataset
-└── README.md # Project documentation
+<pre> ```text 📁 House-Prices-Prediction ├── model.ipynb # Full EDA, preprocessing, feature engineering, model building ├── submission.csv # Final CSV with 1459 predictions ├── train.csv # Training dataset ├── test.csv # Test dataset └── README.md # Project documentation ``` </pre>
 
 
 ## 🧪 Approach
